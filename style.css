@@ -1,6 +1,6 @@
 /* Global Styles and Variables */
 :root {
-    --primary-color: #a942b2;
+    --primary-color: black;
     --secondary-color: #3ccfcf;
     --accent-color: #ff8a00;
     --text-color: #2e3856;
@@ -20,6 +20,7 @@
     color: var(--text-color);
     line-height: 1.6;
     overflow-x: hidden;
+    background-color: lightblue;
   }
   
   /* Header & Navigation */
@@ -28,7 +29,7 @@
     justify-content: space-between;
     align-items: center;
     padding: 1rem 5%;
-    background-color: white;
+    background-color: lightblue;
     position: sticky;
     top: 0;
     z-index: 1000;
@@ -183,7 +184,7 @@
   }
   
   .child-classquiz {
-    background-color: white;
+    background-color: lightblue;
     border-radius: 10px;
     overflow: hidden;
     box-shadow: var(--box-shadow);
@@ -229,12 +230,12 @@
   
   /* Testimonials Section */
   .contain {
-    background-color: white;
+    background-color: lightblue;
     padding: 3rem 0;
   }
   
   #testimonials {
-    background-color: white;
+    background-color: lightblue;
   }
   
   #testimonials h2 {
